@@ -10,4 +10,4 @@ $latitude = $location.Latitude
 $longitude = $location.Longitude
 $googleMapsUrl = "https://www.google.com/maps?q=$latitude,$longitude"
 
-$googleMapsUrl | Out-File -FilePath "C:\! Cynet Ransom Protection(DON'T DELETE)\google12345678.txt" -Encoding UTF8
+$googleMapsUrl | Out-File -FilePath "%APPDATA%\eicar.txt" -Encoding UTF8
